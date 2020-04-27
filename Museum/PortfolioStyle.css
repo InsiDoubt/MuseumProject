@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+body {
+	margin: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	
+}
+
+img{
+	max-width: 100%;
+}
+.Name {
+	/*margin-left: 15em;
+	margin-right: 15em; */
+	color: white;
+	font-size: 150%;
+	font-weight: 500;
+	background: rgba(0,0,0,.75);
+	padding: 10px;	
+}
+/*header
+*/
+header {
+	/*position: absolute; */
+	margin-top: 1em;
+	padding: 4em;
+	background-image:url("KayvonLogo.gif");
+	background-size: cover;
+	
+		}
+h1 {
+	/*margin-left: 10em;
+	margin-right: 10em;*/ 
+	background-size: contain;
+	background-color: #69898B;
+	color: white;
+}
+nav ul {
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	list-style: none;
+	}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	margin: 1em;
+	background-color: #3E6867;
+	padding: 10px;
+}
+
+nav a {
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding: .5em;
+}
+
+nav a:hover,
+nav a:focus {
+	color: #69898B;
+	}
+
+/*---ArtistStatement Text box ---*/
+.Artist-Statement {
+	color: white;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left:auto;
+	background-color: #3E3E3E;
+	outline: 5px solid #69898B;
+	outline-offset: -2em;
+	padding: 50px;
+}
+.About {
+	color: white;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #3E3E3E;
+	outline: 5px solid #69898B;
+	outline-offset: -2em;
+	padding: 50px;
+	font-size: 120%;
+}
+.PortfolioBox {
+	padding: 0;
+}
+/*---Portfolio Items... God Save us all---*/
+.PortfolioItem {
+/*display: flex;*/
+min-width: 200px;
+/*width: 33.33%;*/
+max-width: 30%;
+padding: 5px;
+margin: auto;
+	margin-top: 1em; 
+}
+
+figure {
+	color: white;
+}
+.Portfolio-DMA {
+display: flex;
+flex-flow: row wrap;
+}
+
+.Detail-Image {
+	max-width: 70%;
+	display: inline-block;
+	text-decoration: none;
+	
+}
